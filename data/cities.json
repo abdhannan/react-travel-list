@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,151 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "4328",
+      "cityName": "Montboucher",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-08-02T17:09:27.828Z",
+      "notes": "Mantab ini bolo",
+      "position": {
+        "lat": "45.966424541310275",
+        "lng": "1.6479492187500002"
+      }
+    },
+    {
+      "id": "0540",
+      "cityName": "Sungai Raya",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-07-28T17:13:01.000Z",
+      "notes": "Ok mantab banyak cewek",
+      "position": {
+        "lat": "-0.1375918258001158",
+        "lng": "109.41788434982301"
+      }
+    },
+    {
+      "id": "7c52",
+      "cityName": "Coll de Nargo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-08-02T17:18:05.666Z",
+      "notes": "Mantab betul ini kotanya",
+      "position": {
+        "lat": "42.147114459221015",
+        "lng": "1.2744140625000002"
+      }
+    },
+    {
+      "id": "9a63",
+      "cityName": "Vitre",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-08-02T17:18:56.896Z",
+      "notes": "byst",
+      "position": {
+        "lat": "48.122101028190805",
+        "lng": "-1.1865234375000002"
+      }
+    },
+    {
+      "id": "7e84",
+      "cityName": "Douz",
+      "country": "Tunisia",
+      "emoji": "🇹🇳",
+      "date": "2024-08-02T17:20:19.970Z",
+      "notes": "This is good arab city",
+      "position": {
+        "lat": "33.43144133557529",
+        "lng": "9.580078125"
+      }
+    },
+    {
+      "id": "6d17",
+      "cityName": "Rotherham",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-08-02T17:22:57.735Z",
+      "notes": "Good city as always",
+      "position": {
+        "lat": "53.48804553605622",
+        "lng": "-1.3183593750000002"
+      }
+    },
+    {
+      "id": "7cd8",
+      "cityName": "Skeiða- og Gnupverjahreppur",
+      "country": "Iceland",
+      "emoji": "🇮🇸",
+      "date": "2024-08-02T17:23:17.722Z",
+      "notes": "Smal island good",
+      "position": {
+        "lat": "64.39693778132846",
+        "lng": "-19.16015625"
+      }
+    },
+    {
+      "id": "ccdd",
+      "cityName": "Bayevo",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2024-08-02T17:24:22.457Z",
+      "notes": "Nice place to stay",
+      "position": {
+        "lat": "53.330872983017066",
+        "lng": "80.85937500000001"
+      }
+    },
+    {
+      "id": "f0ba",
+      "cityName": "Lensk",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2024-08-02T17:24:58.372Z",
+      "notes": "good place to work",
+      "position": {
+        "lat": "60.58696734225869",
+        "lng": "116.71875000000001"
+      }
+    },
+    {
+      "id": "a41c",
+      "cityName": "Vabre",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-08-02T17:26:32.769Z",
+      "notes": "Mantabbbb",
+      "position": {
+        "lat": "43.67581809328341",
+        "lng": "2.4169921875000004"
+      }
+    },
+    {
+      "id": "b541",
+      "cityName": "Chalonnes-sur-Loire",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-08-02T17:28:31.895Z",
+      "notes": "mantabb. paris",
+      "position": {
+        "lat": "47.36115300722623",
+        "lng": "-0.8020019531250001"
+      }
+    },
+    {
+      "id": "4fe9",
+      "cityName": "Saint-Romain",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-08-02T17:30:22.212Z",
+      "notes": "gilaaaa",
+      "position": {
+        "lat": "45.29034662473615",
+        "lng": "0.13183593750000003"
+      }
     }
   ]
 }

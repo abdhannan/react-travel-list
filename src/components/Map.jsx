@@ -7,24 +7,12 @@ import {
   useMapEvents,
 } from 'react-leaflet';
 import styles from './Map.module.css';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useCities } from '../Contexts/CitiesContext';
 import { useGeolocation } from '../hooks/useGeoLocation';
 import Button from './Button';
-
-// let latitude;
-// let longitude;
-
-// if (navigator.geolocation) {
-//   navigator.geolocation.getCurrentPosition(function (position) {
-//     latitude = position.coords.latitude;
-//     longitude = position.coords.longitude;
-//     console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
-//   });
-// } else {
-//   console.log('Geolocation is not supported by this browser.');
-// }
+import UseUrlPosition from '../hooks/UseUrlPosition';
 
 function Map() {
   // get cities context state
@@ -32,16 +20,16 @@ function Map() {
 
   const [position, setPosition] = useState([40, 0]);
 
-  const [searchParams] = useSearchParams();
-
   const {
     isLoading: isLoadingPosition,
     position: geoLocationPosition,
     getPosition,
   } = useGeolocation();
 
-  const lat = searchParams.get('lat');
-  const lng = searchParams.get('lng');
+  // const [searchParams] = useSearchParams();
+  // const lat = searchParams.get('lat');
+  // const lng = searchParams.get('lng');
+  const [lat, lng] = UseUrlPosition();
 
   useEffect(
     function () {
